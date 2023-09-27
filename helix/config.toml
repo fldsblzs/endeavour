@@ -1,0 +1,8 @@
+theme = "tokyonight_storm"
+
+[editor]
+mouse = false
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
