@@ -25,6 +25,18 @@ Using [onedrive](https://github.com/abraunegg/onedrive/blob/master/README.md) cl
 
 ## Misc
 
+### Firefox
+
+Vertical tab [stylesheets](./firefox/userChrome.css) (using [Tab Center Reborn](https://addons.mozilla.org/en-US/firefox/addon/tabcenter-reborn/) extension) based on [firefox-vertical-tabs](https://github.com/ranmaru22/firefox-vertical-tabs).
+
+```sh
+# Create chrome folder in used profile root directory
+cd ~/.mozilla/firefox/{profile}/chrome
+
+# symlink /firefox/userChrome.css
+ln -s .../endeavour/firefox/userChrome.css userChrome.css
+```
+
 ### Disable PC Speaker
 
 ```sh
